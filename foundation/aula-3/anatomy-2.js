@@ -13,7 +13,7 @@ const result = sum(5, 5)
 console.log(result)
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
-//Definindo o valor da constante anotherSum com base no valor da constante sum tem como valor uma função.
+//Definindo o valor da constante anotherSum com base no valor da constante sum, que tem como valor uma função.
 const anotherSum = sum
 console.log(anotherSum(10,10))
 
