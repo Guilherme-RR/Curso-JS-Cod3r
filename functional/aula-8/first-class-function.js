@@ -1,0 +1,32 @@
+/*
+* A programming language is said to have
+* First-class functions when functions in
+* that language are treated like any other
+* variable.
+*/
+
+const add = function(a, b) {
+    return a + b
+}
+
+console.log(add(10, 5))
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+const subtracao = function(a, b) {
+    return a - b
+}
+
+console.log(subtracao(10, 5))
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+const mult = (x, y) => x * y
+
+console.log(mult(10, 5))
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+const div = (x, y) => x / y
+
+console.log(div(10, 5))
